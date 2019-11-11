@@ -45,10 +45,20 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
+<<<<<<< HEAD
   arr = []
   arr << holiday_hash[:winter][:christmas]
   arr << holiday_hash[:winter][:new_years]
   return arr.join
+=======
+  holiday_hash.each { |key,value|
+   puts  key[0]
+
+        }
+
+
+#holiday_hash[:winter]
+>>>>>>> 6d3c478f892adaae24bf6e7c7aa0bfbcf5f30c54
 end
 
 def all_supplies_in_holidays(holiday_hash)
